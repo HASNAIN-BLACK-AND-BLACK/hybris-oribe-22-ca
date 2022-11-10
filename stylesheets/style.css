@@ -1149,6 +1149,11 @@ s {
 u {
 	text-decoration: underline;
 }
+a[disabled="disabled"] .btn {
+    cursor: not-allowed;
+    background-color: #646464 !important;
+}
+
 .text-component h1,
 .text-component h2,
 .text-component h3,
